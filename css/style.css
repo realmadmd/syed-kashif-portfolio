@@ -395,15 +395,16 @@ opacity: 0.4;
     justify-content: center;
 }
 #testi-card{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     width: 500px;
-    height: 150px;
+    height: 200px;
     background-color: var(--var-theme-blue);
     padding: 0px 5px 0px 110px;
     border-radius: 25px;
     position: relative;
+    transition: all 0.4s linear;
     color: var(--var-theme-white);
 }
 #testi-card img {
